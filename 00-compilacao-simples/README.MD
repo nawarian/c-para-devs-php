@@ -52,9 +52,7 @@ $ ls -la .
 -rw-r--r--  1 nawarian  staff     34 Jun 16 06:39 main.c
 ```
 
-O formato da linha de comando aqui é `CC <arquivos_c> -o <binario_a_ser_escrito>`.
-Poderíamos passar vários arquivos `.c` como entrada, mas esperamos um único binário
-como saída.
+O formato da linha de comando aqui é `CC <arquivo_c> -o <binario_a_ser_escrito>`.
 
 ## Incluindo arquivos
 
