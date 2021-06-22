@@ -36,6 +36,18 @@ A minha recomendação é que você instale o [GNU C Compiler (GCC)](https://gcc
 Você pode adotar outras alternativas como o `clang`, por exemplo. Mas para
 simplificar a vida vamos adotar o `gcc` por padrão.
 
+### LibC
+
+Se você tentar compilar um programa agora, por mais simples que seja, possivelmente
+vai encontrar alguns problemas. Isto porque você precisa da biblioteca padrão,
+[a GNU libc](https://www.gnu.org/software/libc/) para fazer as básicas em C.
+
+Vamos instalar a libc com o seguinte comando:
+
+```bash
+/opt # apk add libc-dev
+```
+
 ### Automação de tarefas: Make
 
 O [GNU Make](https://www.gnu.org/software/make/) é uma ferramenta de automação
